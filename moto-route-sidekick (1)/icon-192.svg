@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <radialGradient id="g" cx="30%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#ffb400"/>
+      <stop offset="70%" stop-color="#ff3b00"/>
+      <stop offset="100%" stop-color="#8a1400"/>
+    </radialGradient>
+  </defs>
+  <rect width="192" height="192" rx="38" fill="#0a0a0a"/>
+  <circle cx="96" cy="96" r="72" fill="url(#g)"/>
+  <!-- simplified moto silhouette -->
+  <g fill="#0a0a0a">
+    <circle cx="64" cy="124" r="18"/>
+    <circle cx="128" cy="124" r="18"/>
+    <path d="M52 120 L60 96 L108 96 L120 78 L136 78 L140 92 L124 92 L116 108 L140 120 Z"/>
+    <rect x="96" y="66" width="30" height="6" rx="2"/>
+  </g>
+  <g fill="#fff">
+    <circle cx="64" cy="124" r="6"/>
+    <circle cx="128" cy="124" r="6"/>
+  </g>
+</svg>
